@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+.navbar {
+    background-color: #1A187A;
+    color: white;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.menu_bar {
+    display: flex;
+    list-style: none !important;
+}
+
+.menu_bar ul {
+    display: flex;
+    list-style: none !important;
+    gap: 30px;
+    margin-right: 100px;
+
+}
+
+nav h1 {
+    padding: 0px;
+    margin-right: 100px;
+}
+
+
+.main_card_right {
+    padding-left: 56px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 600px;
+    background: #EDEDED;
+    ;
+}
+
+.main_card_right h1 {
+    height: 112px;
+    width: 360px;
+    font-weight: 100;
+}
+
+.main_card_right button {
+    padding: 16px 56px;
+    border-radius: 6px;
+    background: #27448E;
+}
+
+.main_card_right h1 span {
+    color: black;
+    font-weight: bolder;
+
+}
+
+.card_banner {
+    width: 360px;
+
+}
+
+.card_banner p {
+
+    font-size: 14px;
+}
+
+.img_banner img {
+    height: 430px;
+    width: auto;
+}
+
+.picture1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 328px;
+    padding-right: 48px;
+
+
+}
+
+.picture1 img {
+    height: auto;
+    width: 150px;
+
+}
+
+.picture1_paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.picture1_paragraph h1 {
+    font-size: 49px;
+    line-height: 40px;
+
+}
+
+
+.picture2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ADC2D7;
+    height: 272px;
+}
+
+.picture2_paragraph {
+    color: white;
+}
+
+.picture2_img img {
+    height: 200px;
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+.browser_category {
+
+    width: 1440px;
+    height: auto;
+    /* background-color:rgb(100, 235, 237);  */
+    padding: 80px 160px;
+    gap: 32px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.device_card {
+    padding: 24px 52px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 223, 223);
+}
+
+.part2 {
+    display: flex;
+    gap: 30px;
+}
+
+.product_container {
+    display: flex;
+    flex-direction: column;
+    width: 1440;
+    padding: 56px 160px;
+    gap: 32px;
+    height: auto;
+    /* background-color: antiquewhite; */
+}
+
+.product_category {
+    gap: 32px;
+    display: flex;
+
+}
+
+.product_item {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    align-items: center;
+    gap: 16px;
+    width: 200px;
+    border: 1px solid gray;
+
+
+}
+
+.product_card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.product_item p {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+
+.product_item img {
+    height: 160px;
+    width: 160px;
+}
+
+.product_item button {
+    padding: 15px 30px;
+    border-radius: 6px;
+    background: black;
+    color: white;
+}
+
+.poster_1 img {
+    width: 421px;
+    height: 342px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.poster_3 img {
+    width: 421px;
+    height: 357px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.poster_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.poster_container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #958AD4;
+}
+
+.poster_2 p {
+    padding-left: 20px;
+}
+
+.footer_container {
+    display: flex;
+    padding: 104px 160px;
+    background: #0E071B;
+    width: 1439px;
+    gap: 24px;
+    height: auto;
+
+
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 20%;
+}
+
+.platform_link {
+    display: flex;
+    height: 16px;
+    width: 16px;
+    /* padding: 10px; */
+    gap: 30px;
+    width: 20%;
+}
+.footer_container ul
+{
+    list-style: none;
+    
+}
+
+.footer_container a
+{
+    text-decoration: none;
+    color: #CFCFCF;
+}
+.menus1 
+{
+    width: 30%;
+    
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.menus2
+{
+    width: 30%;
+  
+    font-size: 15px;
+    line-height: 32px;
+}
+.footer_container h4
+{
+    padding-left: 26px;
+}
